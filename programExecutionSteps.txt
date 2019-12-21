@@ -1,0 +1,17 @@
+javac-algs4 Percolation.java
+java-algs4 Percolation input5.txt
+
+spotbugs Percolation.class
+pmd Percolation.java
+checkstyle -coursera Percolation.java
+
+----------------------------------------
+javac-algs4 PercolationStats.java
+
+spotbugs PercolationStats.class
+pmd PercolationStats.java
+checkstyle -coursera PercolationStats.java
+
+----------------------------------------
+javac-algs4 PercolationVisualizer.java
+java-algs4 PercolationVisualizer input5.txt
